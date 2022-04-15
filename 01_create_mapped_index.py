@@ -1,6 +1,6 @@
 from elasticsearch import Elasticsearch
 
-# creating client 
+# initialise elasticsearch client
 es = Elasticsearch("http://localhost:9200")
 
 # setting: one node
